@@ -154,14 +154,14 @@ namespace Microsoft.AspNet.Authentication.Cookies.Infrastructure
             Assert.Equal(8, cookies.Count);
             Assert.Equal(new[]
             {
-                "TestCookie=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC1=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC2=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC3=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC4=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC5=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC6=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
-                "TestCookieC7=; domain=foo.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT",
+                "TestCookie=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC1=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC2=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC3=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC4=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC5=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC6=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
+                "TestCookieC7=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=foo.com; path=/",
             }, cookies);
         }
     }
